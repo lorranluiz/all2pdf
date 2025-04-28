@@ -3,12 +3,12 @@
 A powerful command-line tool that automatically converts various document formats to PDF.
 
 ## 📋 Table of Contents
-- [What Is This?](#what-is-this)
-- [Features](#features)
-- [System Requirements](#system-requirements)
-- [How to Use](#how-to-use)
-- [Support This Project](#support-this-project)
-- [Contact](#contact)
+- [What Is This?](#-what-is-this)
+- [Features](#-features)
+- [System Requirements](#-system-requirements)
+- [How to Use](#-how-to-use)
+- [Support This Project](#-support-this-project)
+- [Contact](#-contact)
 
 ## 🤔 What Is This?
 All2PDF is a lightweight, yet powerful Python utility that scans a directory and automatically converts text files (.txt), Word documents (.doc, .docx) to PDF format. It's designed to be simple, fast, and efficient, running directly from your terminal on Ubuntu or Windows with WSL.
