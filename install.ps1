@@ -14,7 +14,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
 }
 
 # Comandos WSL
-wsl sudo apt update && wsl sudo apt install -y libreoffice-writer
+wsl sudo apt update && wsl sudo apt install -y libreoffice-writer enscript ghostscript
 wsl sudo chmod +x all2pdf.py
 wsl sudo ln -s "$(pwd)/all2pdf.py" /usr/local/bin/all2pdf
 

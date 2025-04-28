@@ -6,7 +6,7 @@
 :: 1. Comandos no WSL (Instalação do all2pdf)
 :: ========================================
 echo Instalando dependências no WSL...
-wsl sudo apt update && wsl sudo apt install -y libreoffice-writer
+wsl sudo apt update && wsl sudo apt install -y libreoffice-writer enscript ghostscript
 wsl sudo chmod +x all2pdf.py
 wsl sudo ln -s "$(pwd)/all2pdf.py" /usr/local/bin/all2pdf
 
